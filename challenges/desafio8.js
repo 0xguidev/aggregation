@@ -27,7 +27,7 @@ db.air_alliances.aggregate(
     },
   },
   {
-    $sort: { totalrotas: -1 },
+    $sort: { totalRotas: -1 },
   },
   { $limit: 1 },
 );
