@@ -9,6 +9,7 @@ db.trips.aggregate([
   },
   {
     $group: {
+      _id: null,
       media: {
         $avg: {
           $divide: [{
