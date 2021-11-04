@@ -8,7 +8,7 @@ db.trips.aggregate([
     },
   },
   {
-    $project: {
+    $group: {
       media: {
         $avg: {
           $divide: [{
